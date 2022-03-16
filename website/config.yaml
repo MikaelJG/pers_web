@@ -72,7 +72,7 @@ params:
   #     url: "https://gmail.com"
   
   # About
-  disable_about: false
+  disable_about: true
   descripe_l1_person: "Hi, I'm Mikael a passionate researcher in psychology and data science. I'm a fan of all games! Videos games, sport, board games, etc."
   descripe_l2_person: "I work with R, RMarkdown, JASP... to understand players' motivation and behavior. You can find my works [here](#projects)"
   skills:
