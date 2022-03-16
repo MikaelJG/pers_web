@@ -48,6 +48,7 @@ Menus:
 params:
   version: 3
   customCSS: false
+  hitext: "Hi! I'm"
 
   favicon: "/images/fav.png"
   description: "A high performance hugo theme for personal portfolio and blog."
