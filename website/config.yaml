@@ -55,15 +55,14 @@ params:
   # home
   disable_home: false
   profile_image: "/images/profile.png"
-  name: "MJG"
+  name: "Mikael J. Gonsalves, Ph.D"
   namecolor: ffc107
-  profession: "Profession"
+  profession: "Doctor Psychology and Ethics, Data Analyst"
   github: "https://github.com"
   gitlab: "https://gitlab.com"
   linkedin: "https://linkedin.com"
   twitter: "https://twitter.com/"
   instagram: "https://instagram.com/"
-  facebook: "https://facebook.com"
 
   #Custom social links
   # customSocialLinks:
