@@ -98,6 +98,7 @@ params:
         - point: Created report using RMarkdown, including data cleaning, wrangling, analysis and visualization.
     - company: "Social Sciences and Humanities Research Council of Canada"
       # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
+      id:"Social Sciences and Humanities Research Council of Canada"
       role: "Athlete Motivation Research Lead"
       startdate: Feb 2021
       enddate: Jul 2021
