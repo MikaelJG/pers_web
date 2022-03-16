@@ -57,7 +57,7 @@ params:
   profile_image: "/images/profile.png"
   name: "Mikael J. Gonsalves, Ph.D"
   namecolor: ffc107
-  profession: "Doctor Psychology and Ethics, Data Analyst"
+  profession: "Doctor Psychology & Ethics, Data Analyst"
   github: "https://github.com"
   gitlab: "https://gitlab.com"
   linkedin: "https://linkedin.com"
@@ -73,64 +73,64 @@ params:
   
   # About
   disable_about: false
-  descripe_l1_person: "Hi, I'm Profile, a passionate web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-  descripe_l2_person: "This is a example template for about section. You can find my works [here](#projects)"
+  descripe_l1_person: "Hi, I'm Mikael a passionate researcher in psychology and data science. I'm a fan of all games! Videos games, sport, board games, etc."
+  descripe_l2_person: "I work with R, RMarkdown, JASP... to understand players' motivation and behavior. You can find my works [here](#projects)"
   skills:
-    - name: CSS
+    - name: R/Rmarkdown
       percentage: 90
-    - name: Django
+    - name: SPSS
       percentage: 85
-    - name: Hugo
+    - name: SQL
       percentage: 80
-    - name: React JS
+    - name: JASP
       percentage: 70
 
   # Experience
   disable_experience: false
   experience:
-    - company: "Google"
+    - company: "MG Capital"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
-      role: "Software developer"
-      startdate: Feb 2021
+      role: "Data Analyst"
+      startdate: Jan 2022
       enddate: present
       featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
-    - company: "Facebook"
+        - point: Conducted validation studies in R for customer insight.
+        - point: Created report using RMarkdown, including data cleaning, wrangling, analysis and visualization.
+    - company: "Social Sciences and Humanities Research Council of Canada"
       # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
-      role: "Fullstack developer"
-      startdate: Mar 2020
-      enddate: Dec 2020
+      role: "Athlete Motivation Research Lead"
+      startdate: Feb 2021
+      enddate: Jul 2021
       featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
-    - company: "Amazon"
+        - point: Assisted in design, creation and distribution of surveys to participants.
+        - point: Coordinated and conducted one-on-one athlete interviews.
+    - company: "International Center for Olympic Studies"
       # id: "amazon-developer" // use this, when you want to change the id(used for navigation)
-      role: "Fullstack developer"
-      startdate: Feb 2019
-      enddate: Jan 2020
+      role: "Social Sciences Research Analyst"
+      startdate: Jan 2020
+      enddate: July 2021
       featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
+        - point: Leaded independent qualitative and quantitative research projects.
+        - point: Constructed databases to facilitate the analysis of psychometrics and sport analytics.
 
   # Education
   disable_education: false
   education:
-    - degree: "B.tech"
-      branch: "Information Technology"
-      university: "Example university"
-      startedyear: "2013"
-      graduation: "2018"
-    - degree: "Degree"
-      branch: "Branch"
-      university: "Example university"
-      startedyear: "year"
-      graduation: "year"
-    - degree: "Degree"
-      branch: "Branch"
-      university: "Example university"
-      startedyear: "year"
-      graduation: "year"
+    - degree: "Ph.D"
+      branch: "Psychology and ethics"
+      university: "Western University"
+      startedyear: "2016"
+      graduation: "2021"
+    - degree: "B.A"
+      branch: "Philosophy"
+      university: "Université du Québec à Montréal"
+      startedyear: "2012"
+      graduation: "2015"
+    - degree: "Overseas Studies"
+      branch: "Logic Specialization"
+      university: "Université Paul Valéry Montpellier III"
+      startedyear: "2014"
+      graduation: "2014"
 
   # Projects
   disable_projects: false
