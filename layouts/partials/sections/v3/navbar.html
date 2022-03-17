@@ -1,7 +1,7 @@
 <div class="container">
   <nav class="pt-3 navbar navbar-expand-lg navbar-light" data-aos="fade-down" data-aos-easing="linear"
     data-aos-duration="500">
-    <!--a class="navbar-brand" href="{{ .Site.BaseURL | relURL }}"-->
+    <a class="navbar-brand" href="{{ .Site.BaseURL | relURL }}">
       {{ if .Site.Params.favicon }}
       <img src="{{ .Site.Params.favicon }}" width="30" height="30" class="d-inline-block align-top">
       {{ .Site.Title }}
