@@ -21,11 +21,11 @@ enableEmoji: true
 # menus
 Menus:
   main:
-    - #identifier: blog
-      #name: Blog
-      #title: Blog posts
-      #url: /blog
-      #weight: 1
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blog
+      weight: 1
 
     #Dropdown menu
     # - identifier: dropdown
