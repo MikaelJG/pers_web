@@ -50,8 +50,8 @@ params:
   customCSS: false
   hitext: "Hi! I'm"
 
-  favicon: "/images/fav.png"
-  description: "A high performance hugo theme for personal portfolio and blog."
+  #favicon: "/images/fav.png"
+  #description: "A high performance hugo theme for personal portfolio and blog."
 
   # home
   disable_home: false
