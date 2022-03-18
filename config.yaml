@@ -89,7 +89,7 @@ params:
   # Experience
   disable_experience: false
   experience:
-    - company: "MmG Capital"
+    - company: "MG Capital"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
       role: "Data Analyst"
       startdate: Jan 2022
