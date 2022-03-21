@@ -44,6 +44,14 @@
             </a>
             <span class="px-1"></span>
             {{ end }}
+            
+            {{ if .Site.Params.googlescholar }}
+            <a href="{{ .Site.Params.googlescholar }}" class="social-icon">
+              <i class="ai ai-google-scholar"></i>
+              &#8203;
+            </a>
+            <span class="px-1"></span>
+            {{ end }}
 
             {{ if .Site.Params.linkedin }}
             <a href="{{ .Site.Params.linkedin }}" class="social-icon">

@@ -58,12 +58,12 @@ params:
   profile_image: "/images/profile.png"
   name: "Mikael J. Gonsalves, Ph.D"
   namecolor: ffc107
-  profession: "Doctor Psychology & Ethics, Data Analyst"
-  github: "https://github.com"
+  profession: "Dr. Psychology & Ethics, Data Analyst"
+  github: "https://github.com/MikaelJG"
   gitlab: "https://gitlab.com"
-  linkedin: "https://linkedin.com"
-  twitter: "https://twitter.com/"
-  instagram: "https://instagram.com/"
+  linkedin: "https://www.linkedin.com/in/mikael-j-gonsalves-ph-d-586260222/"
+  googlescholar: "https://scholar.google.com/citations?hl=en&user=H3Icf34AAAAJ&view_op=list_works&sortby=pubdate"
+  email: "mailto:mjgonsalves@protonmail.com"
 
   #Custom social links
   # customSocialLinks:
@@ -74,29 +74,31 @@ params:
   
   # About
   disable_about: false
-  descripe_l1_person: "Hi, I'm Mikael a passionate researcher in psychology and data science. I'm a fan of all games! Videos games, sport, board games, etc."
-  descripe_l2_person: "I work with R, RMarkdown, JASP... to understand players' motivation and behavior. You can find my works [here](#projects)"
+  descripe_l1_person: "Hi, again! I'm Mikael a passionate researcher in psychology and data science. Fan of all games, I'm working hard towards game user experience positions!"
+  descripe_l2_person: "I work with R/RMarkdown, MOffice and JASP to understand users. Motivational interviews are my speciality! Currently learning a few tricks in python and SQL. You can find my works [here](#projects)"
   skills:
+    - name: Motivational Interviews
+      percentage: 95
     - name: R/Rmarkdown
-      percentage: 90
-    - name: SPSS
-      percentage: 85
-    - name: SQL
+      percentage: 80
+    - name: Traditional Statistics & Modeling
       percentage: 80
     - name: JASP
       percentage: 70
-
+    - name: Python/ SQL
+      percentage: 40
   # Experience
   disable_experience: false
   experience:
-    - company: "MG Capital"
+    - company: "EPL Investments"
       # id: "google-developer"   // use this, when you want to change the id(used for navigation)
       role: "Data Analyst"
       startdate: Jan 2022
       enddate: present
       featuredpoints:
+        - point: Created report using RMarkdown, including data cleaning, wrangling, analysis and visualization. 
         - point: Conducted validation studies in R for customer insight.
-        - point: Created report using RMarkdown, including data cleaning, wrangling, analysis and visualization.
+        - point: Assisted in design, creation and distribution of surveys to participants.
     - company: "Social Sciences and Humanities Research Council of Canada"
       # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
       role: "Athlete Motivation Research Lead"
@@ -136,39 +138,47 @@ params:
   # Projects
   disable_projects: false
   projects:
-    - name: "Example project without details"
-      img: /images/project.jpg
+    - name: "Wrangling data in R, with Tinyverse"
+      img: /images/project1.png
       githublink: "https://github.com/"
       featuredlink: "/"
-      description: "Description of project"
+      description: "Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to"
+    - name: "Wrangling data in R, with Tinyverse"
+      img: /images/project1.png
+      githublink: "https://github.com/"
+      featuredlink: "/"
+      description: "Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to"
 
   # Achievements
   disable_achievements: false
   achievements:
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
+    - title: Pan-Am Olympic Qualifier of Carthagena (COL) 2016
+      description: Representing Canada while applying for Western University
+      img: /images/2016_3.jpg
       url: https://example.com
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
+    - title: University World Championships of Merida (MEX) 2016
+      description: Representing Canada during my Masters Degree at Western University
+      img: /images/2016_2.jpg
+      url: https://example.com
       # url: https://example.com
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
+    - title: Univ. World Championships of Chiangmai (THA) 2014
+      description: Representing Canada during my B.A at UQAM
+      img: /images/2014_1.jpg
+      url: /blog
+    - title: International Tournament of Montpellier (FRA) 2014
+      description: Personal invitation to compete during an overseas term
+      img: /images/2014_4.jpg
+      url: /blog
 
   # Contact
   disable_contact: false
-  contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
-  email: "example@mail.com"
+  contact_content: My inbox is always open for questions and conversations. 
+  email: "mjgonsalves@protonmail.com"
 
   # Footer
-  socialiconfooter: true
-  recentposts: true
+  socialiconfooter: false
+  recentposts: false
 
   # Blog
   showdescription: false
-  tweet: true
+  tweet: false
