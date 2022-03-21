@@ -21,6 +21,32 @@
         <div class="row social pt-4" data-aos="fade-up" data-aos-offset="50" data-aos-delay="50" data-aos-duration="900"
           data-aos-once="true">
           <div class="col-md-12">
+
+            {{ if .Site.Params.googlescholar }}
+            <a href="{{ .Site.Params.googlescholar }}" class="social-icon">
+              <i class="ai-lg ai ai-google-scholar-square"></i>
+              &#8203;
+            </a>
+            <span class="px-1"></span>
+            {{ end }}
+
+            {{ if .Site.Params.email }}
+            <a href="{{ .Site.Params.email }}" class="social-icon">
+              <i class="fa-lg fa fa-envelope"></i>
+              &#8203;
+            </a>
+            <span class="px-1"></span>
+            {{ end }}
+
+            {{ if .Site.Params.linkedin }}
+            <a href="{{ .Site.Params.linkedin }}" class="social-icon">
+              <i class="fab fa-lg fa-linkedin"></i>
+              &#8203;
+            </a>
+            <span class="px-1"></span>
+            {{ end }}
+
+
             {{ if .Site.Params.github }}
             <a href="{{ .Site.Params.github }}" class="social-icon">
               <i class="fab fa-lg fa-github"></i>
@@ -40,22 +66,6 @@
             {{ if .Site.Params.twitter }}
             <a href="{{ .Site.Params.twitter }}" class="social-icon">
               <i class="fab fa-lg fa-twitter"></i>
-              &#8203;
-            </a>
-            <span class="px-1"></span>
-            {{ end }}
-            
-            {{ if .Site.Params.googlescholar }}
-            <a href="{{ .Site.Params.googlescholar }}" class="social-icon">
-              <i class="ai ai-google-scholar"></i>
-              &#8203;
-            </a>
-            <span class="px-1"></span>
-            {{ end }}
-
-            {{ if .Site.Params.linkedin }}
-            <a href="{{ .Site.Params.linkedin }}" class="social-icon">
-              <i class="fab fa-lg fa-linkedin"></i>
               &#8203;
             </a>
             <span class="px-1"></span>
