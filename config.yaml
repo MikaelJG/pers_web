@@ -22,7 +22,7 @@ enableEmoji: true
 Menus:
   main:
     - identifier: blog
-      name: Blog
+      name: Examples
       title: Blog posts
       url: /blog
       weight: 1
@@ -55,7 +55,7 @@ params:
 
   # home
   disable_home: false
-  profile_image: "/images/profile.png"
+  profile_image: "/images/tike4.png"
   name: "Mikael J. Gonsalves, Ph.D"
   namecolor: ffc107
   profession: "Dr. Psychology & Ethics, Data Analyst"
@@ -75,7 +75,7 @@ params:
   # About
   disable_about: false
   descripe_l1_person: "Hi, again! I'm Mikael a passionate researcher in psychology and data science. Fan of all games, I'm working hard towards game user experience positions!"
-  descripe_l2_person: "I work with R/RMarkdown, MOffice and JASP to understand users. Motivational interviews are my speciality! Currently learning a few tricks in python and SQL. You can find my works [here](#projects)"
+  descripe_l2_person: "I work with R/RMarkdown, MOffice and JASP to understand users. Motivational interviews are my speciality! Currently learning a few tricks in python and SQL. You can find examples [here](/blog)"
   skills:
     - name: Motivational Interviews
       percentage: 95
@@ -120,7 +120,7 @@ params:
   disable_education: false
   education:
     - degree: "Ph.D"
-      branch: "Psychology and ethics"
+      branch: "Psychology and Ethics"
       university: "Western University"
       startedyear: "2016"
       graduation: "2021"
@@ -129,7 +129,7 @@ params:
       university: "Université du Québec à Montréal"
       startedyear: "2012"
       graduation: "2015"
-    - degree: "Overseas Studies"
+    - degree: "Overseas"
       branch: "Logic Specialization"
       university: "Université Paul Valéry Montpellier III"
       startedyear: "2014"
@@ -138,37 +138,37 @@ params:
   # Projects
   disable_projects: false
   projects:
-    - name: "Wrangling data in R, with Tinyverse"
-      img: /images/project1.png
+    - name: "Precise reports with RMarkdown"
+      img: /images/project_9.png
       githublink: "https://github.com/"
-      featuredlink: "/"
-      description: "Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to"
-    - name: "Wrangling data in R, with Tinyverse"
-      img: /images/project1.png
+      featuredlink: "/blog"
+      description: "Rmarkdown is great to report information concisely. Surprinsingly, it has been my most consistent work task for close to ten years. At every stage, I had to summarize for audiences, crop redundancies and reduce word count."
+    - name: "Wrangling data in the Tinyverse"
+      img: /images/project_4.png
       githublink: "https://github.com/"
-      featuredlink: "/"
-      description: "Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to facilitate the analysis of psychometrics and sport analytics.Constructed databases to"
+      featuredlink: "/blog"
+      description: "Data quality is a contemporary focus. With the International Center for Olympic Studies (ICOS), I once struggle with my sport analytics databases. Colleagues knew both my pain and helpful tools. When you have problem, find the ones who once had it too."
 
   # Achievements
   disable_achievements: false
   achievements:
     - title: Pan-Am Olympic Qualifier of Carthagena (COL) 2016
-      description: Representing Canada while applying for Western University
+      description: On CAN's national team, I finished in the top 10 in pan-american rankings.
       img: /images/2016_3.jpg
-      url: https://example.com
+      url: https://firstpull.net/2016/06/14/2016-pan-american-championships-rio-olympic-qualification/
     - title: University World Championships of Merida (MEX) 2016
-      description: Representing Canada during my Masters Degree at Western University
+      description: Representing CAN's varsity national team, I finished 5th in the world ranking!
       img: /images/2016_2.jpg
-      url: https://example.com
+      url: https://www.fisu.net/sport-events/weightlifting/5th-wuc-weightlifting-2016
       # url: https://example.com
-    - title: Univ. World Championships of Chiangmai (THA) 2014
-      description: Representing Canada during my B.A at UQAM
+    - title: Univ. World Championships of Chiang Mai (THA) 2014
+      description: During my B.A at UQAM, I represented CAN's varsity national team for the first time. 
       img: /images/2014_1.jpg
-      url: /blog
+      url: https://www.fisu.net/sport-events/weightlifting/4th-wuc-weightlifting-2014
     - title: International Tournament of Montpellier (FRA) 2014
-      description: Personal invitation to compete during an overseas term
+      description: During an overseas term, I received an invitation for the France Cup.
       img: /images/2014_4.jpg
-      url: /blog
+      url: https://clermont-sports-haltero.fr/phototheque/gallery/randon-2014/
 
   # Contact
   disable_contact: false
