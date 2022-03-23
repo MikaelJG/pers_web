@@ -139,7 +139,7 @@ params:
   disable_projects: false
   projects:
     - name: "Precise reports with RMarkdown"
-      img: /images/project_9.png
+      img: /images/project_13.png
       githublink: "https://github.com/"
       featuredlink: "/blog"
       description: "Rmarkdown is great to report information concisely. Surprinsingly, it has been my most consistent work task for close to ten years. At every stage, I had to summarize for audiences, crop redundancies and reduce word count."
