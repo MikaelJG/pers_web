@@ -173,7 +173,7 @@ params:
   # Contact
   disable_contact: false
   contact_content: My inbox is always open for questions and conversations. 
-  email: "mjgonsalves@protonmail.com"
+  email: "mailto:mjgonsalves@protonmail.com"
 
   # Footer
   socialiconfooter: false
