@@ -74,17 +74,17 @@ params:
   
   # About
   disable_about: false
-  descripe_l1_person: "Hi, again! I'm Mikael a passionate researcher in psychology and data science. Fan of all games, I'm working hard towards game user experience positions!"
-  descripe_l2_person: "I work with R/RMarkdown, MOffice and JASP to understand users. Motivational interviews are my speciality! Currently learning a few tricks in python and SQL. You can find examples [here](/blog)"
+  descripe_l1_person: "Hi, again! I'm Mikael a passionate researcher in psychology and data science. Fan of all games, I'm working hard towards a GUXR position!"
+  descripe_l2_person: "I work with R/RMarkdown, SPSS, Qualtrics, Tableau and JASP to lead game mixed-methods research projects! Currently learning tricks in python and SQL. You can find my projects [here](/blog)!"
   skills:
-    - name: Motivational Interviews
-      percentage: 95
     - name: R/Rmarkdown
-      percentage: 80
-    - name: Traditional Statistics & Modeling
-      percentage: 80
-    - name: JASP
-      percentage: 70
+      percentage: 85
+    - name: SPSS
+      percentage: 50
+    - name: Qualtrics
+      percentage: 50
+    - name: Tableau
+      percentage: 50
     - name: Python/ SQL
       percentage: 40
   # Experience
@@ -138,16 +138,21 @@ params:
   # Projects
   disable_projects: false
   projects:
-    - name: "Precise reports with RMarkdown"
+    - name: "Usability Testing"
       img: /images/project_13.png
       githublink: "https://github.com/"
       featuredlink: "/blog"
-      description: "Rmarkdown is great to report information concisely. Surprinsingly, it has been my most consistent work task for close to ten years. At every stage, I had to summarize for audiences, crop redundancies and reduce word count."
-    - name: "Wrangling data in the Tidyverse"
+      description: "1:1 observational technique where participants perform different tasks. Observers note users’ actions and talks."
+    - name: "Heuristics Evaluation"
       img: /images/project_4.png
       githublink: "https://github.com/"
       featuredlink: "/blog"
-      description: "Data quality is a contemporary focus. With the International Center for Olympic Studies (ICOS), I once struggle with my sport analytics databases. Colleagues knew both my pain and helpful tools. When you have problem, find the ones who once had it too."
+      description: "Evaluators examine a product’s compliance with recognized principles (‘heuristics’). In this case, game usability principles."
+    - name: "Inital Experience Playtest"
+      img: /images/project_4.png
+      githublink: "https://github.com/"
+      featuredlink: "/blog"
+      description: "Survey technique assessing attitudes and perceptions of users. Over the first 2 hours of use."
 
   # Achievements
   disable_achievements: false
