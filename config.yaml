@@ -74,16 +74,16 @@ params:
   
   # About
   disable_about: false
-  descripe_l1_person: "Hi, again! I'm Mikael a passionate researcher in psychology and data science. Fan of all games, I'm working hard towards a GUXR position!"
-  descripe_l2_person: "I work with R/RMarkdown, SPSS, Qualtrics, Tableau and JASP to lead game mixed-methods research projects! Currently learning tricks in python and SQL. You can find my projects [here](/blog)!"
+  descripe_l1_person: "I'm a passionate researcher in psychology and data science. Fan of all games, I'm working towards a GUXR position!"
+  descripe_l2_person: "I work with R/RMarkdown, Qualtrics, Tableau and SPSS to lead mixed-methods research projects! Learning Python and SQL. You can find my projects [here](/blog)!"
   skills:
     - name: R/Rmarkdown
       percentage: 85
-    - name: SPSS
-      percentage: 50
     - name: Qualtrics
-      percentage: 50
+      percentage: 70
     - name: Tableau
+      percentage: 50
+    - name: SPSS
       percentage: 50
     - name: Python/ SQL
       percentage: 40
@@ -96,7 +96,7 @@ params:
       startdate: Jan 2022
       enddate: present
       featuredpoints:
-        - point: Created report using RMarkdown, including data cleaning, wrangling, analysis and visualization. 
+        - point: Created reports using RMarkdown, including data cleaning, wrangling, analysis and visualization. 
         - point: Conducted validation studies in R for customer insight.
         - point: Assisted in design, creation and distribution of surveys to participants.
     - company: "Social Sciences and Humanities Research Council of Canada"
@@ -138,18 +138,18 @@ params:
   # Projects
   disable_projects: false
   projects:
-    - name: "Usability Testing"
-      img: /images/project_13.png
+    - name: "Surveys in Qualtrics"
+      img: /images/qualtrics2.png
       githublink: "https://github.com/"
       featuredlink: "/blog"
-      description: "1:1 observational technique where participants perform different tasks. Observers note users’ actions and talks."
-    - name: "Heuristics Evaluation"
-      img: /images/project_4.png
+      description: "GUXR frequently work with surveys. Qualtrics can help build, analyse and report survey data."
+    - name: "Data Analysis in R"
+      img: /images/rsoftware2.png
       githublink: "https://github.com/"
       featuredlink: "/blog"
-      description: "Evaluators examine a product’s compliance with recognized principles (‘heuristics’). In this case, game usability principles."
-    - name: "Inital Experience Playtest"
-      img: /images/project_4.png
+      description: "R/Rmardown are essential tools for data science. You can clean, wrangle, analyse and visualize data."
+    - name: "Tableau presentations"
+      img: /images/tableau2.png
       githublink: "https://github.com/"
       featuredlink: "/blog"
       description: "Survey technique assessing attitudes and perceptions of users. Over the first 2 hours of use."

@@ -1,10 +1,9 @@
 ---
-title: "Precise RMarkdown Reports"
+title: "R/Rmarkdown For Analysis"
 date: 2021-04-03T23:29:21+05:30
 draft: false
 github_link: "https://github.com/gurusabarish/hugo-profile"
 author: "Gurusabarish"
-
 bg_image: ""
 description: ""
 toc: 
